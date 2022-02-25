@@ -1,0 +1,44 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["Spartan, your bot assistant", "I'm Spartan, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me JARVIS.", "I'm JARVIS!", "Just call me as JARVIS"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["I can help you find cheapest train ticket in UK and predict the time delay"]
+    },
+    {"tag": "ticketprice",
+    "patterns": ["what is the price of ticket ?", "can i know todays ticket price ?", "I want to know lowest ticket price", "can you show me lowest ticket price", "how can i get lowest ticket price for my travel"],
+    "responses": ["Please provide us  the following information home ,destination", "Kindly  provide us  the following information starting point,destination","Give us the information for the following information starting point,destination"]
+    },
+    {"tag": "userdata",
+    "patterns": ["start: ,end: ", "satrt: ,destination:,","departure: ,arrival: ","home: ,destination: "],
+    "responses": ["The lowest price is ", "the Lowest ticket availlable is at  "]
+    },
+        {"tag": "delay",
+    "patterns": ["what is the train delay ?", "How late my train arrives ?","How long my train will delay today ?", "Expected train delay ?", "Train delay predict? ", "Train delay"],
+    "responses":["please provide us  the following information starting point,destination,day,train number", "kindly  provide us  the following information starting point,destination,day,train number","give us the information for the following information starting point,destination,day,train number"]
+    },
+    {"tag": "delaydata",
+    "patterns": ["start: ,destination: ,day: ,train number:", "satrt: ,destination: ,day:,train number: ","satrt station : ,destination station : ,day: ,train number: ","x,y,z,w","station1,station2,friday,768521","weymth,upwey,8734176,sunday","poole,pstone,87543,sunday","bomo,crtistc,87654,monday"],
+    "responses": ["The train will be dealayed for   ", "Delay of the train will be  ","Train will be dalayed for "]
+    }
+]
+ 
+}
